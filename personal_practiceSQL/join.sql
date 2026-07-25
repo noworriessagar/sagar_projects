@@ -1,0 +1,1 @@
+SELECT * FROM employee_demographics ed RIGHT JOIN employee_salary es ON ed.employee_id=es.employee_id;
