@@ -1,0 +1,1 @@
+select truncate(sum(LAT_N),4) from STATION where LAT_N BETWEEN 38.7880 AND 137.2345 ;

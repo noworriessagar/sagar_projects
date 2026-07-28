@@ -1,13 +1,15 @@
-// void helper(vector<char>& s,int i){
-//         if(i>=(s.size())/2){
-//             return;
-//         }
-//         swap(s[i],s[s.size()-1-i]);
-//         helper(s,i+1);
+#include<bits/stdc++.h>
+using namespace std;
+void helper(vector<char>& s,int i){
+        if(i>=(s.size())/2){
+            return;
+        }
+        swap(s[i],s[s.size()-1-i]);
+        helper(s,i+1);
 
-//      }
-//     void reverseString(vector<char>& s) {
-//         helper(s,0);
+     }
+    void reverseString(vector<char>& s) {
+        helper(s,0);
 
         
-//     }
+    }
